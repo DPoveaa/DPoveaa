@@ -37,7 +37,7 @@
 
 ---
 
-![Snake animation](https://github.com/DPoveaa/DPoveaa/blob/output/github-snake.svg)
+![Snake animation](https://raw.githubusercontent.com/DPoveaa/DPoveaa/output/github-snake.svg)
 
 ---
 
@@ -63,7 +63,6 @@
   <!-- Contador de visitas -->
   <img src="https://komarev.com/ghpvc/?username=DPoveaa&label=Profile%20views&color=blue&style=plastic" alt="Profile views" />
 </p>
----
 
 > “Código é igual um disco riscado  
 > – Povea
