@@ -37,8 +37,8 @@
 
 ---
 
-  ![Snake animation](https://github.com/dpoveaa/dpoveaa/blob/output/github-contribution-grid-snake.svg)
-  
+  ![snake gif](https://github.com/DPoveaa/DPoveaa/blob/output/github-contribution-grid-snake.svg)
+
 ---
 
 ## 🤝 Entre em contato!
