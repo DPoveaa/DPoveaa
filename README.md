@@ -37,10 +37,6 @@
 
 ---
 
-  ![snake gif](https://github.com/DPoveaa/DPoveaa/blob/output/github-contribution-grid-snake.svg)
-
----
-
 ## 🤝 Entre em contato!
 
 <a href="https://www.linkedin.com/in/daniel-povea-507893222/" target="_blank">
