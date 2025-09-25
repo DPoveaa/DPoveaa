@@ -55,8 +55,6 @@
   <img src="https://img.shields.io/badge/-Discord-%235865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord">
 </a>
 
-> “Código é igual um disco riscado  
-> – Povea
 <p align="left">
   <!-- Contador de visitas -->
   <img src="https://komarev.com/ghpvc/?username=DPoveaa&label=Profile%20views&color=blue&style=plastic" alt="Profile views" />
