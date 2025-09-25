@@ -1,4 +1,4 @@
-name: Update GitHub Stats
+name: Generate Private GitHub Stats
 
 on:
   schedule:
@@ -6,40 +6,32 @@ on:
   workflow_dispatch:
 
 jobs:
-  update-readme:
+  generate-stats:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
         with:
           token: ${{ secrets.GH_TOKEN }}
       
-      - name: Generate Private GitHub Stats
+      - name: Generate GitHub Stats with Private Data
         run: |
           # Criar diretório para as imagens
           mkdir -p assets
           
-          # Gerar stats gerais com dados privados
+          # Usar o token diretamente na URL para acessar dados privados
           curl -o assets/github-stats.svg \
             "https://github-readme-stats.vercel.app/api?username=DPoveaa&show_icons=true&theme=radical&count_private=true&include_all_commits=true&token=${{ secrets.GH_TOKEN }}"
           
-          # Gerar top linguagens com dados privados
           curl -o assets/top-langs.svg \
             "https://github-readme-stats.vercel.app/api/top-langs/?username=DPoveaa&layout=compact&langs_count=10&theme=radical&token=${{ secrets.GH_TOKEN }}"
           
           # Verificar se os arquivos foram criados
-          echo "Arquivos gerados:"
           ls -la assets/
-          
-      - name: Update README with local images
-        run: |
-          # Atualizar README para usar imagens locais
-          sed -i 's|https://github-readme-stats.vercel.app/api?username=DPoveaa&show_icons=true&theme=radical&count_private=true&include_all_commits=true|assets/github-stats.svg|g' README.md
-          sed -i 's|https://github-readme-stats.vercel.app/api/top-langs/?username=DPoveaa&layout=compact&langs_count=10&theme=radical|assets/top-langs.svg|g' README.md
           
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/ README.md
+          git add assets/
           git commit -m "📊 Update private GitHub stats - $(date '+%Y-%m-%d %H:%M')" || echo "No changes to commit"
           git push
