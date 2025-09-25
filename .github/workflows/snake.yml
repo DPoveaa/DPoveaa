@@ -16,8 +16,7 @@ jobs:
         uses: Platane/snk@master
         with:
           github_user_name: DPoveaa
-          outputs: |
-            dist/github-snake.svg?color_snake=#00ff00&color_dots=#00ff00,#00cc00,#009900,#006600
+          svg_out_path: dist/github-snake.svg
 
       - name: Commit and push
         run: |
