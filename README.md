@@ -37,11 +37,11 @@
 
 ---
 
-![Snake animation](https://raw.githubusercontent.com/DPoveaa/DPoveaa/output/github-snake.svg)
-
+  ![Snake animation](https://github.com/dpoveaa/dpoveaa/blob/output/github-contribution-grid-snake.svg)
+  
 ---
 
-## 🤝 Vamos nos conectar
+## 🤝 Entre em contato!
 
 <a href="https://www.linkedin.com/in/daniel-povea-507893222/" target="_blank">
   <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
@@ -59,10 +59,9 @@
   <img src="https://img.shields.io/badge/-Discord-%235865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord">
 </a>
 
+> “Código é igual um disco riscado  
+> – Povea
 <p align="left">
   <!-- Contador de visitas -->
   <img src="https://komarev.com/ghpvc/?username=DPoveaa&label=Profile%20views&color=blue&style=plastic" alt="Profile views" />
 </p>
-
-> “Código é igual um disco riscado  
-> – Povea
