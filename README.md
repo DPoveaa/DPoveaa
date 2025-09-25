@@ -1,16 +1,83 @@
-## Hi there 👋
+<!-- Cabeçalho / arte (pode trocar para algo que combine contigo) -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/USERNAME/USERNAME/main/banner.gif" alt="Banner animado" />
+</p>
 
-<!--
-**DPoveaa/DPoveaa** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<h1 align="center">🌀 Olá, eu sou **Seu Nome**</h1>
+<p align="center">Um desenvolvedor que curte transformar café ☕ + ideias em código.</p>
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 👨‍💻 Sobre mim
+
+- 🧠 Apaixonado por aprender novas tecnologias  
+- 💻 Atualmente focado em **Frontend / Backend / Full-Stack / Mobile**  
+- 🔄 Sempre com vontade de contribuir para projetos open source  
+- 🎮 Quando não tô codando: jogo, toco música, ou viajo  
+
+---
+
+## 🛠 Tecnologias que uso
+
+| Área | Ferramentas / Linguagens |
+|------|--------------------------|
+| Frontend | HTML, CSS, JavaScript, React, Vue |
+| Backend | Node.js, Python, Express, Flask |
+| Banco de Dados | MongoDB, PostgreSQL, MySQL |
+| Outros | Git, Docker, CI/CD, APIs REST |
+
+---
+
+## 🌟 Projetos em destaque
+
+- [Projeto A](link) — breve descrição  
+- [Projeto B](link) — breve descrição  
+- [Projeto C](link) — breve descrição  
+
+---
+
+## 📊 Estatísticas & Badges
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=USERNAME&show_icons=true&theme=radical" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=USERNAME&theme=radical" alt="GitHub Streak" />
+</p>
+
+---
+
+## 🐍 Jogo da Cobrinha
+
+<p align="center">
+  <img src="https://github.com/USERNAME/USERNAME/blob/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+</p>
+
+---
+
+## 🕒 Últimos Commits
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
+---
+
+## 👀 Contador de visitas
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=USERNAME&label=Profile%20views&color=blue&style=flat" alt="Profile views" />
+</p>
+
+---
+
+## 🤝 Vamos nos conectar
+
+| Plataforma | Link |
+|------------|------|
+| 🌐 Website / Portfólio | https://seusite.com |
+| 📧 E-mail | seu@email.com |
+| 🔗 LinkedIn | linkedin.com/in/seuperfil |
+| 🐦 Twitter | twitter.com/seuusuario |
+
+---
+
+> “Código é poesia quando funciona”  
+> – Sua frase favorita
