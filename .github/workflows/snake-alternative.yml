@@ -1,8 +1,8 @@
-name: Generate Snake
+name: Generate Snake Alternative
 
 on:
   schedule:
-    - cron: "*/30 * * * *"  # atualiza a cada 30 minutos
+    - cron: "*/10 * * * *"
   workflow_dispatch: 
 
 jobs:
@@ -12,13 +12,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       
-      - name: Generate Snake with Growth and Random Movement
+      - name: Generate Snake with Random Movement
         uses: Platane/snk@master
         with:
           github_user_name: DPoveaa
-          outputs: |
-            dist/snake.svg
-            dist/snake-dark.svg?palette=github-dark
+          outputs: dist/snake.svg
+          snake_color: random
+          snake_outline: true
 
       - name: Commit and push
         run: |
@@ -28,6 +28,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "🐍 Snake animation updated - $(date '+%Y-%m-%d %H:%M')"
+            git commit -m "Update snake animation - $(date)"
             git push
           fi
