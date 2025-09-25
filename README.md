@@ -6,6 +6,12 @@
 <h1 align="center">Daniel Povea</h1>
 <p align="center">Um desenvolvedor que curte transformar ☕ + ideias em código.</p>
 
+ <div>
+  <a href="https://github.com/dpoveaa">
+   <img align="center" height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dpoveaa&layout=compact&langs_count=16&theme=dracula"/>
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=dpoveaa&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&hide=issues"/>
+</div>
+
 ## 👨‍💻 Sobre mim
 
 - 🧠 Apaixonado por aprender novas tecnologias  
@@ -21,12 +27,6 @@
 | Backend | Node.js, Python, Express, Flask |
 | Banco de Dados | MongoDB, PostgreSQL, MySQL |
 | Outros | Git, Docker, CI/CD, APIs REST |
-tísticas & Badges
-
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=DPoveaa&show_icons=true&theme=radical" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=DPoveaa&theme=radical" alt="GitHub Streak" />
-</p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/DPoveaa/DPoveaa/main/dist/github-snake.svg" alt="Snake animation" />
