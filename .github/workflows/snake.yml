@@ -16,13 +16,14 @@ jobs:
         uses: Platane/snk@master
         with:
           github_user_name: DPoveaa
-          svg_out_path: dist/snake.svg
+          outputs: |
+            dist/github-snake.svg?color_snake=#00ff00&color_dots=#00ff00,#00cc00,#009900,#006600
 
       - name: Commit and push
         run: |
           git config --local user.name "GitHub Actions"
           git config --local user.email "actions@github.com"
-          git add dist/snake.svg
+          git add dist/github-snake.svg
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else

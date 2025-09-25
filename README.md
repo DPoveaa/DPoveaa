@@ -48,7 +48,7 @@
 ## 🐍 Jogo da Cobrinha
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/DPoveaa/DPoveaa/main/dist/snake.svg" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/DPoveaa/DPoveaa/main/dist/github-snake.svg" alt="Snake animation" />
 </p>
 
 ---
