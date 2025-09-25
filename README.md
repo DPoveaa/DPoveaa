@@ -3,7 +3,7 @@
   <img src="https://camo.githubusercontent.com/64caf9016869591bbcf79720ad78d0645d4ae11549961c8f47f9cb595838b2e3/68747470733a2f2f63646e612e61727473746174696f6e2e636f6d2f702f6173736574732f696d616765732f696d616765732f3032312f3732302f3932302f6f726967696e616c2f706978656c2d6a6566662d6d6172696f2e6769663f31353732373039343333" alt="Banner animado" />
 </p>
 
-<h1 align="center">Olá, eu sou Daniel Poveaa</h1>
+<h1 align="center">Daniel Povea</h1>
 <p align="center">Um desenvolvedor que curte transformar ☕ + ideias em código.</p>
 
 ## 👨‍💻 Sobre mim
@@ -23,7 +23,7 @@
 | Outros | Git, Docker, CI/CD, APIs REST |
 tísticas & Badges
 
-<p align="center">
+<p align="left">
   <img src="https://github-readme-stats.vercel.app/api?username=DPoveaa&show_icons=true&theme=radical" alt="GitHub Stats" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=DPoveaa&theme=radical" alt="GitHub Streak" />
 </p>

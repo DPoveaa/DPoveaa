@@ -2,30 +2,44 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "*/30 * * * *"  # atualiza a cada 30 minutos
-  workflow_dispatch: 
+    - cron: "*/30 * * * *"   # roda a cada 30 minutos
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+# garante que o token tem permissão para escrever arquivos (necessário para push)
+permissions:
+  contents: write
 
 jobs:
   generate:
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      
-      - name: Generate Snake with Growth and Random Movement
-        uses: Platane/snk@master
-        with:
-          github_user_name: DPoveaa
-          svg_out_path: dist/github-snake.svg
+    timeout-minutes: 15
 
-      - name: Commit and push
-        run: |
-          git config --local user.name "GitHub Actions"
-          git config --local user.email "actions@github.com"
-          git add dist/github-snake.svg
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "🐍 Snake animation updated - $(date '+%Y-%m-%d %H:%M')"
-            git push
-          fi
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Generate snake (fast SVG)
+        # usa a variante "svg-only" (mais rápida) da ação snk (versão estável v3)
+        uses: Platane/snk/svg-only@v3
+        with:
+          # usa o dono do repositório automaticamente (robusto)
+          github_user_name: ${{ github.repository_owner }}
+          # lista de arquivos a gerar (um por linha). esse será colocado em dist/
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish generated files to branch 'output'
+        # faz push dos arquivos da pasta dist/ para a branch 'output'
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
