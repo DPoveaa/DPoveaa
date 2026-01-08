@@ -7,16 +7,6 @@
 
 ---
 
-<div align="center">
-  <!-- Stats gerais -->
-  <img align="center" height="170" src="assets/github-stats.svg" alt="GitHub Stats"/>
-
-  <!-- Top Linguagens -->
-  <img align="center" height="170" src="assets/top-langs.svg" alt="Top Languages"/>
-</div>
-
----
-
 ## 👨‍💻 Sobre mim
 
 - 🧠 Apaixonado por aprender novas tecnologias  
