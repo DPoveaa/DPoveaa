@@ -9,7 +9,7 @@
 
 ## 👨‍💻 Sobre mim
 
-- 🧠 Apaixonado por typescript  
+- 🧠 Apaixonado por Typescript  
 - 💻 Focado em **Full-Stack**  
 - 🔄 Sempre contribuindo para projetos open source    
 
