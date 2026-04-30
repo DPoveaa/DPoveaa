@@ -9,10 +9,9 @@
 
 ## 👨‍💻 Sobre mim
 
-- 🧠 Apaixonado por aprender novas tecnologias  
-- 💻 Focado em **Frontend / Backend / Full-Stack**  
-- 🔄 Sempre contribuindo para projetos open source  
-- 🎮 Quando não estou codando: jogando e vendo anime  
+- 🧠 Apaixonado por typescript  
+- 💻 Focado em **Full-Stack**  
+- 🔄 Sempre contribuindo para projetos open source    
 
 ---
 
